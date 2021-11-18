@@ -15,10 +15,13 @@ cd app
 make                                             # compile application
 ```
 
+The Redpitaya Buildroot install is expected to support Python3 and the Oscimp libraries: copy from OscimpDigital/lib
+liboscimp_fpga.so to the Redpitaya's /usr/lib and liboscimp_fpga.py to the Redpitaya's /usr/lib/python3.9/
+
 On the Redpitaya
 ```
 cd app
-./double_iq_pid_vco_charac_us.sh
-./fir_loader.py fir_lp_4000000_12000000_40dB.dat
-./double_iq_pid_vco_charac_us
+./double_iq_pid_vco_charac_us.sh                                 # load bitstream and kernel modules
+./fir_loader.py /dev/firReal_0 fir_lp_4000000_12000000_40dB.dat  # configure FIR coefficients
+./double_iq_pid_vco_charac_us                                    # execute the PLL characterization program, filling /tmp with *.bin
 ```
