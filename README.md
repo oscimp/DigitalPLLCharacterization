@@ -1,5 +1,6 @@
 # DigitalPLLCharacterization
 
+On the host PC where OscimpDigital is installed:
 ```
 cd /somewhere/oscimpDigital                      # goto OscimpDigital repository
 source settings.sh                               # set environment variables
