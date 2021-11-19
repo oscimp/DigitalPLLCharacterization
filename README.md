@@ -15,8 +15,8 @@ cd app
 make                                             # compile application
 ```
 
-The Redpitaya Buildroot install is expected to support Python3 and the Oscimp libraries: copy from OscimpDigital/lib
-liboscimp_fpga.so to the Redpitaya's /usr/lib and liboscimp_fpga.py to the Redpitaya's /usr/lib/python3.9/
+The Redpitaya Buildroot install is expected to include the Oscimp libraries: copy from OscimpDigital/lib
+liboscimp_fpga.so to the Redpitaya's /usr/lib
 
 On the Redpitaya
 ```
