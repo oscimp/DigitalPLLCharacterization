@@ -22,6 +22,5 @@ On the Redpitaya
 ```
 cd app
 ./double_iq_pid_vco_charac_us.sh                                 # load bitstream and kernel modules
-./fir_loader.py /dev/firReal_0 fir_lp_4000000_12000000_40dB.dat  # configure FIR coefficients
 ./double_iq_pid_vco_charac_us                                    # execute the PLL characterization program, filling /tmp with *.bin
 ```
