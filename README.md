@@ -9,6 +9,8 @@ in /tmp with the perturbation signal and the corrected output (raw, medium low p
 and strong low pass filtering). Postprocessing on the host PC uses the GNU Octave/Matlab
 script found in analysis/ for displaying the transfer function.
 
+<img src="analysis/schematic.png">
+
 <img src="analysis/DSC_0445.JPG">
 
 ## Results
