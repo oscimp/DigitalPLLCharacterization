@@ -43,3 +43,5 @@ cd app
 ./double_iq_pid_vco_charac_us.sh                 # load bitstream and kernel modules
 ./double_iq_pid_vco_charac_us                    # execute the PLL characterization program, filling /tmp with *.bin
 ```
+
+The content of this repository was used when collecting the results published in M. Matusko, I. Ryger, G. Goavec-Merou, J. Millo, C. Lacroûte, É. Carry, J.-M Friedt, M. Delehaye, Fully-digital platform for local ultra-stable optical frequency distribution Rev. Sci. Instrum volume 94, issue 3 (2023) at http://jmfriedt.free.fr/RSI22-AR-02627crop.pdf
